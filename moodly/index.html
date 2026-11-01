@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moodly Privacy Policy</title>
+<meta name="description" content="How the Moodly mood journal app collects, uses and protects your information.">
+<style>
+  :root { --ink:#22223b; --muted:#5c5f77; --accent:#6c5ce7; --bg:#fbfaff; --card:#ffffff; --line:#e7e4f5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#ecebf7; --muted:#b4b2c9; --accent:#a29bfe; --bg:#16151f; --card:#1f1e2b; --line:#2f2d40; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+  header { margin-bottom: 28px; }
+  .brand { color: var(--accent); font-weight: 700; letter-spacing: .02em; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 6px 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  table { width:100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+  th, td { text-align:left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin: 12px 0; }
+  a { color: var(--accent); }
+  nav a { margin-right: 14px; }
+  footer { margin-top: 40px; font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="brand">Moodly</div>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Effective 1 November 2026</p>
+  <nav><a href="#collect">What we collect</a><a href="#delete">Delete your account</a><a href="#contact">Contact</a></nav>
+</header>
+
+<p>Moodly is a personal mood journal for Android. This policy explains what information the app collects, why, where it is stored, and the choices you have. "Moodly", "we" and "us" mean the developer of the Moodly app. If you have a question, email <a href="mailto:pxdraft@gmail.com">pxdraft@gmail.com</a>.</p>
+
+<div class="card">
+  <strong>The short version</strong>
+  <ul>
+    <li>Your journal entries are backed up to your own account in Google Firebase so you can restore them on a new phone.</li>
+    <li>Photos you attach stay on your phone. They are never uploaded.</li>
+    <li>There are no ads, no analytics or tracking tools, and we never sell or share your information.</li>
+    <li>You can export your data or delete your account and all of its data at any time from inside the app.</li>
+  </ul>
+</div>
+
+<h2 id="collect">1. Information we collect</h2>
+<table>
+  <tr><th>Information</th><th>Why we need it</th><th>Where it is kept</th></tr>
+  <tr><td><strong>Account details:</strong> your email address and the name you enter. If you sign in with Google, we receive your Google account's email address, name and an account identifier.</td><td>To create your account, sign you in and keep your journal private to you.</td><td>Google Firebase Authentication</td></tr>
+  <tr><td><strong>Password:</strong> if you sign up with email.</td><td>To sign you in. We never see or store your password ourselves; Firebase stores it in a protected, hashed form.</td><td>Google Firebase Authentication</td></tr>
+  <tr><td><strong>Journal entries:</strong> the mood, feeling, intensity, title, notes and tags you write, the date and time of each entry, how many photos it has, and a random ID that Moodly creates for your phone (it is not your phone's hardware ID).</td><td>To back up your journal and sync it across your devices.</td><td>Your phone, and Google Cloud Firestore under your account</td></tr>
+  <tr><td><strong>Photos</strong> you take or choose for an entry, and your profile avatar.</td><td>To show them in your journal.</td><td>Only in Moodly's private storage on your phone</td></tr>
+  <tr><td><strong>App settings:</strong> reminder time, theme, app lock and similar preferences.</td><td>To make the app work the way you set it up.</td><td>Only on your phone</td></tr>
+</table>
+<p>Moodly does <strong>not</strong> collect your location, contacts, advertising ID, browsing history or any analytics about how you use the app. App lock uses your phone's own fingerprint, face or screen-lock check; Moodly never receives your biometric data.</p>
+<p>When the app talks to Firebase, Google may process technical information such as your IP address and device type to deliver and secure the service. This is handled under <a href="https://firebase.google.com/support/privacy">Firebase's privacy and security terms</a>.</p>
+
+<h2>2. How we use your information</h2>
+<ul>
+  <li>To provide the app: sign you in, save your entries, and restore them when you sign in on another phone.</li>
+  <li>To send the optional daily reminder you set. Reminders are scheduled on your phone; no reminder data is sent to us.</li>
+  <li>To answer you when you contact us.</li>
+</ul>
+<p>We do not use your journal for advertising, profiling or training any AI model, and we do not read your entries. We would only access your data if you ask us to for support, or if the law requires it.</p>
+
+<h2>3. Sharing</h2>
+<p>We do not sell, rent or share your personal information with anyone. The only company that processes it is Google, which provides Firebase Authentication and Cloud Firestore as our service provider. Google may store data on servers outside your country. We may disclose information if required by law.</p>
+
+<h2>4. Security</h2>
+<ul>
+  <li>Data is encrypted in transit (HTTPS/TLS) and encrypted at rest by Google Cloud.</li>
+  <li>Database rules allow each account to read and write only its own entries.</li>
+  <li>Moodly's data is excluded from Android's own cloud backup and device-to-device transfer.</li>
+  <li>You can turn on App lock in Profile and hide Moodly's content in the recent-apps screen.</li>
+</ul>
+<p>Entries are not end-to-end encrypted, so please keep your sign-in details safe. No system is perfectly secure, but we take reasonable steps to protect your information.</p>
+
+<h2>5. How long we keep it</h2>
+<p>We keep your account and entries for as long as your account exists. When you delete an entry, its content is removed from the cloud; a small blank record may remain so your other devices know it was deleted. When you delete your account, your account and cloud entries are deleted straight away. Copies may remain in Google's encrypted backups for a limited time before they are overwritten.</p>
+
+<h2 id="delete">6. Your choices, and how to delete your account</h2>
+<ul>
+  <li><strong>See and export your data:</strong> Profile › Export lets you download your entries as JSON, CSV or text.</li>
+  <li><strong>Correct it:</strong> edit any entry, or change your name in Profile › Edit profile.</li>
+  <li><strong>Delete your account in the app:</strong> Profile › Account › Delete account. This permanently deletes your account, your cloud backup, and the entries and photos on that phone.</li>
+  <li><strong>Delete your account without the app:</strong> email <a href="mailto:pxdraft@gmail.com?subject=Delete%20my%20Moodly%20account">pxdraft@gmail.com</a> from the email address you use for Moodly, with the subject "Delete my Moodly account". We will delete your account and all of its data within 30 days and confirm by email.</li>
+</ul>
+<p>Depending on where you live, you may have further rights, such as to access, correct, delete or object to the use of your data, or to complain to a data protection authority. Email us and we will help.</p>
+
+<h2>7. Children</h2>
+<p>Moodly is meant for people aged 13 and over. It is not directed at children under 13, and we do not knowingly collect their information. If you believe a child under 13 has created an account, contact us and we will delete it.</p>
+
+<h2>8. Not medical advice</h2>
+<p>Moodly helps you notice how you feel. It is not a medical service and does not diagnose or treat any condition. If you are in crisis, contact your local emergency services or a helpline.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>If we change this policy, we will update the date at the top of this page and, for important changes, let you know in the app before they take effect.</p>
+
+<h2 id="contact">10. Contact</h2>
+<p>Email <a href="mailto:pxdraft@gmail.com">pxdraft@gmail.com</a> with any question about privacy or your data.</p>
+
+<footer class="muted">© 2026 Moodly</footer>
+</main>
+</body>
+</html>
